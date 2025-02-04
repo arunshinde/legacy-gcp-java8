@@ -1,0 +1,10 @@
+<queue-entries>
+	<queue>
+		<name>testQueue</name>
+		<rate>500/s</rate>
+		<bucket-size>300</bucket-size>
+		<retry-parameters>
+			<task-retry-limit>1</task-retry-limit>
+		</retry-parameters>
+	</queue>
+</queue-entries>
